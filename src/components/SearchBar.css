@@ -1,0 +1,24 @@
+.search-bar form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input {
+  border: 1px solid blueviolet;
+  text-transform: uppercase;
+  height: 5vh;
+  border-radius: 12px;
+  width: 50vh;
+  margin-top: 0.3rem;
+}
+
+label {
+  color: steelblue;
+  text-transform: capitalize;
+}
